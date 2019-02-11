@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<title>Dulles Web Design Club</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="./scroll.js"></script>
+	<style>
+		body, html {
+		height: 100%;
+		font-family: "Inconsolata", sans-serif;
+		}
+		.bgimg {
+		background-position: center;
+		background-size: cover;
+		background-image: url("./bg.jpg");
+		min-height: 75%;
+		}
+		.menu {
+		display: none;
+		}
+	</style>
+	<body>
+		<!-- Links (sit on top) -->
+		<div class="w3-top">
+			<div class="w3-row w3-padding w3-black">
+				<div class="w3-col custom">
+					<a href="#home" class="w3-button w3-block w3-black">HOME</a>
+				</div>
+				<div class="w3-col custom">
+					<a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+				</div>
+				<div class="w3-col custom">
+					<a href="#remind" class="w3-button w3-block w3-black">REMIND</a>
+				</div>
+				<div class="w3-col custom">
+					<a href="#where" class="w3-button w3-block w3-black">WHERE</a>
+				</div>
+				<div class="w3-col custom">
+					<a href="#contact" class="w3-button w3-block w3-black">CONTACT</a>
+					</div>
+			</div>
+		</div>
+		<!-- Header with image -->
+		<header class="bgimg w3-display-container" id="home">
+		<!--<header class="bgimg w3-display-container w3-grayscale-min" id="home">-->
+			<div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+				<span class="w3-tag">Room B105</span>
+			</div>
+			<div class="w3-display-middle w3-center">
+				<span class="w3-text" style="font-size:90px">
+					<!--Web<br>Design<br>Club--> 
+				</span>
+			</div>
+			<div class="w3-display-bottomright w3-center w3-padding-large">
+				<span class="w3-text-white">Every Monday!</span>
+			</div>
+		</header>
+		<!-- Add a background color and large text to the whole page -->
+		<div class="w3-sand w3-large">
+		<!--<div class="w3-sand w3-grayscale w3-large">-->
+			<!-- About Container -->
+			<div class="w3-container" id="about">
+				<div class="w3-content" style="max-width:700px">
+					<h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">DULLES WEB DESIGN</span></h5>
+					<p>Dulles Web Design Club was founded in 2018, and is currently sponsored by Mr. Rogers. In Web Design club, you will learn the basics to HTML, CSS, as well as everything you need to publish a website to the web- like this website!</p>
+					<p>This club is a relaxed environment to learn about web design. Creating a website is an important skill in today's world. With a website, you can reach an audience and advertise your product.</p>
+					<!-- removed<p>Don't believe us? You're reading this website right now about our club :)</p>-->
+					<div class="w3-panel w3-leftbar w3-light-grey">
+						<!--<p><i>"What one programmer can do in one month, two programmers can do in two months."</i></p>
+							<p>Computer Architect & Software Engineer: Fred Brooks</p>old quote-->
+						<p><i>If there’s one thing you learn by working on a lot of different websites, it’s that almost any design idea—no matter how appallingly bad—can be made usable in the right circumstances, with enough effort.</i></p>
+						<p>Steve Krug, <i>Don’t Make Me Think: A Common Sense Approach to Web Usability</i></p>
+					</div>
+					<img src="./webdesignimage.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+					<p><strong>Join us:</strong> Learn how to do web design!</p>
+				</div>
+			</div>
+			<!-- Menu Container -->
+			<div class="w3-container" id="remind">
+				<div class="w3-content" style="max-width:700px">
+					<h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">REMIND</span></h5>
+					<script src="https://widgets.remind.com/iframe.js?token=c483e82058720136550e0242ac110006&height=500&join=true"></script>
+				</div>
+			</div>
+			<!-- Contact/Area Container -->
+			<div class="w3-container" id="where" style="padding-bottom:32px;">
+				<div class="w3-content" style="max-width:700px">
+					<h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">WHERE TO FIND US</span></h5>
+					<p>Find us at room B105.</p>
+					<iframe width="700" height="550" frameborder="0" style="border:0" align="center"
+						src="https://www.google.com/maps/embed/v1/place?q=Dulles%20High%20School&key=AIzaSyAdjY-58FwNnIyzLC8oiTnJxBJOSX-NywE" allowfullscreen></iframe>
+					<p><span class="w3-tag">FYI!</span> Join us today to learn about HTML, CSS, and other programming languages!</p>
+				</div>
+			</div>
+			<!--<div class="w3-container" id="contact" style="padding-bottom:32px;">
+				<div class="w3-content" style="max-width:700px">
+					<p> Contact us at <a href="mailto:dulleswebdesign@gmail.com">dulleswebdesign@gmail.com</a></p>
+				</div>
+			</div>-->
+			<!--<p>Contact us on remind!</p>-->
+			<!-- End page content -->
+		</div>
+			<footer class="w3-center w3-light-grey w3-padding-48 w3-large" id="contact">
+			  <p>Contact us at <a href="mailto:dulleswebdesign@gmail.com">dulleswebdesign@gmail.com</a></p>
+			  <p>Visit us in room B105</p>
+			</footer>
+		
+	</body>
+</html>
