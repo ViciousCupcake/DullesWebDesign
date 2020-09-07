@@ -12,4 +12,4 @@ Visit the website for info on how to join!
 ## DNS Management settings
 See image below
 
-![Alt text](/DNS_Management_IPs.PNG)
+![Alt text](/DNS-Management-IPs.PNG)
